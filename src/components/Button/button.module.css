@@ -1,0 +1,9 @@
+.btn {
+    background-color: var(--clr-accent);
+    color: inherit;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

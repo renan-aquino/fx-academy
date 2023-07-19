@@ -1,0 +1,18 @@
+.hero_section {
+    padding-top: 120px;
+    height: 100vh;
+    background-image: url("/images/astronaut.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1000px;
+}
+
+.container {
+    max-width: var(--container-width);
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding-block: 80px;
+}
