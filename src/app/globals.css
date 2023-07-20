@@ -20,7 +20,7 @@
   --fs-400: 40px;
   --fs-500: 48px;
 
-  --container-width: 80vw;
+  --container-width: clamp(80vw, 80vw, 1280px);
 
 }
 
@@ -81,6 +81,17 @@ p {
 a{
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  background-color: var(--clr-accent);
+  color: inherit;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
 
 img,

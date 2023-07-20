@@ -1,10 +1,7 @@
-.hero_section {
+.hero {
     padding-top: 120px;
     height: 100vh;
-    background-image: url("/images/astronaut.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -1000px;
+
 }
 
 .container {
@@ -15,4 +12,49 @@
     text-align: start;
     align-items: center;
     padding-block: 80px;
+}
+
+.headline {
+    width: 50%;
+}
+
+.headline :not(:first-child){
+    margin-top: 40px;
+}
+
+.btn {
+   font-size: 16px; 
+}
+
+@media(min-width: 1025px){
+    .hero {
+        background-image: url("/images/astronaut1920_V2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+
+@media(max-width: 1024px) {
+    .hero {
+        background: url("/images/astronaut1920_V2.jpg"),  rgba(0, 0, 0, 85%);
+        background-blend-mode: overlay;
+        background-position: center top;
+        background-size: cover;
+
+    }
+    .headline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .headline h1 {
+        font-size: 32px;
+    }
+    
+    .headline h3 {
+        font-size: 16px;
+    }
+
+    
 }

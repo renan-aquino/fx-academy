@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from 'react'
 import s from './header.module.css'
-import { Button } from '../Button/Button';
 import Image from 'next/image';
 import { Globe } from '../Icons/Globe/Globe';
 import { BurgerMenu } from '../Icons/BurgerMenu/BurgerMenu';
@@ -61,7 +60,7 @@ export function Header() {
                     <li className={s.nav_list_item}><a href="#">Products</a></li>
                 </ul>
                 <div className={s.nav_buttons}>
-                    <Button text='Enroll Now'/>
+                    <button>Enroll Now</button>
                     <p>|</p>
                     <div className={s.languages}>
                         <p>EN</p>

@@ -4,12 +4,12 @@ import s from './hero.module.css';
 export function Hero(){
     return(
         <>
-            <section className={s.hero_section}>
+            <section className={s.hero}>
                 <div className={s.container}>
-                    <div>
-                        <h1>Headline text hero</h1>
-                        <h3>Lorem ipaum dolor sit amet. Lorem ipsum dolor sit amet.</h3>
-                        <button>Click me</button>
+                    <div className={s.headline}>
+                        <h1>Unleash your creative vision.</h1>
+                        <h3>A video editing school with hands-on projects to help you become a professional motion designer, capable of creating stunning visual effects, add great storytelling, and more.</h3>
+                        <button className={s.btn}>Learn more</button>
                     </div>
                     
                 </div>
