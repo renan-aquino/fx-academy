@@ -15,18 +15,18 @@ export function Hero(){
                     <div className={s.data_numbers_box}>
                         <div className={s.data_numbers_container}>
                             <div className={s.data_numbers}>
-                                <p>24,000</p>
-                                <p>active students</p>
+                                <p className={s.data_number_digits}>24,000</p>
+                                <p className={s.data_numbers_description}>active students</p>
                             </div>
                             <div className={s.data_numbers_pipe}>|</div>
                             <div className={s.data_numbers}>
                                 <p>92%</p>
-                                <p>employement rate</p>
+                                <p className={s.data_numbers_description}>employement rate</p>
                             </div>
                             <div className={s.data_numbers_pipe}>|</div>
                             <div className={s.data_numbers}>
                                 <p>10</p>
-                                <p>units worldwide</p>
+                                <p className={s.data_numbers_description}>units worldwide</p>
                             </div>
                      
                         </div>

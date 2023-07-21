@@ -30,7 +30,7 @@
 
 .data_numbers_container {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 30px;
 }
 
@@ -62,11 +62,16 @@
         background-position: center top;
         background-size: cover; */
         min-width: 100%;
+        max-width: 100%;
+        padding-top: 80px;
 
     }
+    
     .headline {
         width: 100%;
         text-align: center;
+        max-width: 100%;
+
     }
 
     .headline h1 {
@@ -77,7 +82,28 @@
         font-size: 16px;
     }
 
+    .data_numbers_container {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    
     .data_numbers_box {
         background-color: transparent;
+        border-radius: 10px;
+        width: 100%;
+        padding: 0;
+        /* margin-top: 80px; */
+        align-self: flex-end;
+    }
+    
+    .data_numbers_description {
+        font-size: 14px;
+    }
+
+    .data_numbers_pipe {
+        margin-top: 10px;
     }
 }
