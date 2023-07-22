@@ -52,6 +52,10 @@
 
 @media (max-width: 1024px){
 
+    .header_box {
+        height: 60px;
+    }
+
     .container {
         width: 100%;
         padding-inline: 10px;
