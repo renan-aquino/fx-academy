@@ -1,0 +1,16 @@
+.skills {
+    padding-block: 120px;
+    width: 920px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+@media(max-width: 1024px) {
+    .skills{
+        max-width: 80vw;
+        text-align: center;
+        align-items: center;
+    }   
+}

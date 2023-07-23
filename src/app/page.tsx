@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import s from './page.module.css'
-import { Hero } from '@/components/Hero/Hero'
+import { Hero } from '@/components/Sections/Hero/Hero'
+import { Skills } from '@/components/Sections/Skills/Skills'
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         </div>
       </div>  
     </section>
+
+    <Skills/>
 
    </main>
   )

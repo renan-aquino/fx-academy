@@ -1,0 +1,26 @@
+.card {
+    width: 280px;
+}
+
+.image {
+    border-radius: 10px 10px 0 0;
+
+}
+
+.description {
+    border-radius: 0 0 10px 10px;
+    background-color: var(--clr-secondary);
+    padding: 16px;
+    text-align: center;
+}
+
+
+@media(max-width: 1024px){
+    .card {
+        width: clamp(120px,  80vw, 280px);
+    }
+
+    .image{
+        height: clamp(120px,  50vw, 200px);
+    }
+}
