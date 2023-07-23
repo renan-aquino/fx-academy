@@ -16,8 +16,7 @@
 }
 
 .header_sticky{
-    /* position: sticky; */
-    background-color: var(--clr-background);
+    background-color: rgb(20, 20, 20);
 }
 
 .logo {
@@ -67,15 +66,14 @@
 
 
     .nav_list {
-        /* display: flex; */
         flex-direction: column;
-        background-color: var(--clr-background);
+        background-color: rgb(20, 20, 20);
         position: absolute;
         top: 0;
-        padding: 80px 10px 0 10px;
         left: 0;
+        padding: 80px 10px 0 10px;
         width: 100%;
-        height: calc(100vh - 20px) ;
+        height: 100vh;
         gap: 0px;
         display: none;
         text-align: center;
