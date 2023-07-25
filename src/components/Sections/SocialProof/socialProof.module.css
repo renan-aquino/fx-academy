@@ -1,0 +1,80 @@
+.social_proof{
+    height: 100vh;
+    padding-block: 120px;
+    width: calc(var(--container-width) - 10vw);
+    margin-inline: auto;
+}
+
+.section_a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.topics h2 {
+    padding-bottom: 40px;
+}
+
+.bullet_points li {
+    background-image: url('/vectors/check.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 3px 0px 3px 30px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: var(--clr-secondary);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 500px;
+    align-self: end;
+}
+
+.testimony {
+    padding-bottom:40px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo {
+    background-image: url('/images/girl-portrait.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100px;
+}
+
+
+.section_b {
+    text-align: center;
+}
+
+.section_b h3{
+    margin-bottom: 40px;
+}
+.companies {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    fill: white;
+    background-blend-mode: soft-light;
+}
