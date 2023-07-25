@@ -1,0 +1,54 @@
+.softwares {
+    height: 100vh;
+    padding-block: 120px;
+}
+
+.container {
+    max-width: 1100px;
+    height: 100%;
+    margin-inline: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.creative_cloud {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.cc_logo {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h2 {
+    margin-bottom: 40px;
+}
+
+.text p {
+    margin-bottom: 40px;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+}
