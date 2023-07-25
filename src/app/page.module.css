@@ -27,6 +27,7 @@
     text-align: start;
 }
 
+
 @media(max-width: 1024px){
     .info {
         padding-top: 0;
@@ -60,4 +61,5 @@
         display: block;
         font-size: 24px;
     }
+
 }
