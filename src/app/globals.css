@@ -19,8 +19,9 @@
   --fs-300: 20px;
   --fs-400: 24px;
   --fs-500: 32px;
-  --fs-600: 48px;
+  --fs-600: 40px;
 
+  --header-height: 80px;
   --container-width: clamp(80vw, 80vw, 1280px);
 
 }

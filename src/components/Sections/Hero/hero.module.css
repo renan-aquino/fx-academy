@@ -1,5 +1,5 @@
 .hero {
-    padding-top: 120px;
+    /* padding-top: 120px; */
     height: 100vh;
 }
 
@@ -9,13 +9,18 @@
     margin-inline: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: start;
     align-items: start;
-    padding-block: 80px;
+    padding-top: var(--header-height);
 }
 
 .headline {
     width: 50%;
+}
+
+.headline h1 {
+    line-height: 1.5;
 }
 
 .headline :not(:first-child){
@@ -36,12 +41,17 @@
 .data_numbers_box {
     background-color: rgba(0, 0, 0, 50%);
     border-radius: 10px;
-    padding: 40px;
-    margin-top: 100px;
+    padding: 20px 40px;
+    margin-top: 80px;
+    max-width: 580px;
 }
 
 .data_numbers {
     text-align: center;
+}
+
+.data_numbers_pipe {
+    margin-top: 10px;
 }
 
 
@@ -102,7 +112,5 @@
         font-size: 14px;
     }
 
-    .data_numbers_pipe {
-        margin-top: 10px;
-    }
+    
 }

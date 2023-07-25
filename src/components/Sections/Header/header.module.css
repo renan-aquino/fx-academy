@@ -1,5 +1,5 @@
 .header_box {
-    height: 80px;
+    height: var(--header-height);
     position: fixed;
     /* background: transparent; */
     min-width: 100%;
