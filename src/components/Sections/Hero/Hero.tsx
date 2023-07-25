@@ -8,7 +8,7 @@ export function Hero(){
                 <div className={s.container}>
                     <div className={s.headline}>
                         <h1>Unleash your creative vision.</h1>
-                        <h3>A video editing school with hands-on projects to help you become a professional motion designer, capable of creating stunning visual effects, improve your storytelling, and more.</h3>
+                        <h4>A video editing school with hands-on projects to help you become a professional motion designer, capable of creating stunning visual effects, improve your storytelling, and more.</h4>
                         <button className={s.btn}>Learn More</button>
                     </div>
 
