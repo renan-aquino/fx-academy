@@ -72,7 +72,10 @@
         background-size: cover;
         min-width: 100%;
         max-width: 100%;
-        padding-top: 80px;
+    }
+
+    .container {
+        padding-top: 60px;
 
     }
     
@@ -91,6 +94,11 @@
         font-size: 16px;
     }
 
+    .headline span {
+        display: none;
+    }
+
+
     .data_numbers_container {
         display: flex;
         align-items: start;
@@ -104,7 +112,6 @@
         border-radius: 10px;
         width: 100%;
         padding: 0;
-        /* margin-top: 80px; */
         align-self: flex-end;
     }
     
