@@ -1,0 +1,33 @@
+.companies {
+    padding-block: 140px;
+}
+
+.container {
+    width: var(--container-width);
+    margin-inline: auto;
+    text-align: center;
+}
+
+.container h3{
+    margin-bottom: 40px;
+}
+
+.company_logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex; */
+    margin-inline: auto;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    fill: white;
+    background-blend-mode: soft-light;
+}

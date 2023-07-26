@@ -1,20 +1,19 @@
 .social_proof{
-    height: 100vh;
-    padding-block: 120px;
-    width: calc(var(--container-width) - 10vw);
-    margin-inline: auto;
+    padding-block: 140px;
 }
 
-.section_a{
+
+.container{
+    width: var(--container-width);
+    margin-inline: auto;
     display: flex;
     justify-content: center;
     gap: 80px;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 .topics h2 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
 }
 
 .bullet_points li {
@@ -54,28 +53,24 @@
 }
 
 
-.section_b {
-    text-align: center;
-}
+@media(max-width: 1024px){
+    .social_proof {
+        padding-block: 80px;
+    }
 
-.section_b h3{
+   .container {
+    display: block;
+    width: 100%;
+    padding-inline: 12px;
+   } 
+
+   .topics {
     margin-bottom: 40px;
-}
-.companies {
-    display: flex;
-    max-width: 1000px;
-    margin-inline: auto;
-    justify-content: space-between;
-    align-items: center;
-}
+   }
 
-.logo{
-    width: 200px;
-    height: 50px;
+   .box {
+    width: 100%;
+    padding: 20px;
+   }
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    fill: white;
-    background-blend-mode: soft-light;
 }
