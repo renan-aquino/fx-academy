@@ -13,7 +13,6 @@ export default function Home() {
     <Hero></Hero>
     <Softwares/>
     <Skills/>
-    <Featured/>
     <SocialProof/>
     <Cta/>
     
