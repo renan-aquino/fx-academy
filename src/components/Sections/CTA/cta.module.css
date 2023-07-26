@@ -1,33 +1,14 @@
 .cta {
-    height: 100vh;
-    padding-block: 120px;
-    background-image: url('/images/galaxy.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box {
-    background-color: var(--clr-background);
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 980px;
-
+   padding-block: 80px;
 }
 
 .image {
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: auto;
 }
 
 .text {
-    border-radius: 0 10px 10px 0;
-    padding: 100px 60px 80px 60px;
+    padding: 24px 12px 0 12px;
 }
 
 .text h2 {
@@ -45,9 +26,36 @@
     width: 100%;
 }
 
-
-@media(max-width: 1024px){
+@media(min-width: 1024px){
     .cta {
-        height: auto;
+        height: 100vh;
+        padding-block: 120px;
+        background-image: url('/images/galaxy.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        background-color: var(--clr-background);
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 1000px;
+        padding-inline: 0px;
+    }
+
+    .image {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text {
+        border-radius: 0 10px 10px 0;
+        padding: 100px 60px 80px 60px;
     }
 }
