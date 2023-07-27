@@ -9,18 +9,12 @@ export function Companies(){
     return(
     <section className={s.companies}>    
         <div className={s.container}>
-            <h3>Companies that hire our students:</h3>
+            <h3>Companies hiring our students</h3>
             <div className={s.company_logos}>
-                {/* <div className={s.logo} style={{backgroundImage: "url('/vectors/DreamWorks2.svg')"}}></div>
-                <div className={s.logo} style={{backgroundImage: "url('/vectors/Weta3.svg')"}}></div>
-                <div className={s.logo} style={{backgroundImage: "url('/vectors/industrial-light-magic4.svg')"}}></div>
-                <div className={s.logo} style={{backgroundImage: "url('/vectors/Pixar5.svg')"}}></div> */}
-                
                 <Image className={s.logo} src={dreamWorks} alt='a'/>
                 <Image className={s.logo} src={weta} alt='a'/>
                 <Image className={s.logo} src={industrial} alt='a'/>
-                <Image className={s.logo} src={pixar} alt='a'/>
-
+                <Image className={s.logo} src={pixar} id={s.pixar} alt='a'/>
             </div>
         </div>
     </section>     
