@@ -1,4 +1,9 @@
 import s from './footer.module.css'
+import youtube from '@/../public/vectors/youtube-logo3.svg'
+import instagram from '@/../public/vectors/instagram-logo4.svg'
+import twitter from '@/../public/vectors/twitter-logo2.svg'
+import facebook from '@/../public/vectors/facebook-logo2.svg'
+import Image from 'next/image'
 
 export function Footer(){
     return(
@@ -8,10 +13,18 @@ export function Footer(){
                     <div className={s.logos}>
                         <a className={s.brand_logo}>FX Academy</a>
                         <div className={s.socials}>
-                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/yoUtube-logo3.svg')"}}></a>
+                            {/* <a className={s.social_icon} style={{backgroundImage: "url('/vectors/yoUtube-logo3.svg')"}}></a>
                             <a className={s.social_icon} style={{backgroundImage: "url('/vectors/instagram-logo4.svg')"}}></a>
                             <a className={s.social_icon} style={{backgroundImage: "url('/vectors/twitter-logo2.svg')"}}></a>
-                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/facebook-logo2.svg')"}}></a>
+                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/facebook-logo2.svg')"}}></a> */}
+                            
+                            <Image className={s.social_icon} src={youtube} alt=''/>
+                            <Image className={s.social_icon} src={instagram} alt=''/>
+                            <Image className={s.social_icon} src={twitter} alt=''/>
+                            <Image className={s.social_icon} src={facebook} alt=''/>
+                            
+
+
                         </div>
                     </div>
                     <div className={s.links}>
