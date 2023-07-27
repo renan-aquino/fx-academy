@@ -112,7 +112,8 @@
         border-radius: 10px;
         width: 100%;
         padding: 0;
-        align-self: flex-end;
+        align-self: center;
+        /* align-self: flex-end; */
     }
     
     .data_numbers_description {
