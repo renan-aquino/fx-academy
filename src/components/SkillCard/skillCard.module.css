@@ -3,8 +3,11 @@
 }
 
 .image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -20px;
+    height: 100px;
     border-radius: 10px 10px 0 0;
-
 }
 
 .description {
@@ -15,12 +18,21 @@
 }
 
 
-@media(max-width: 1024px){
+@media(min-width: 1024px){
+    .image {
+        height: 200px;
+        object-position: 0;
+    }
+    
     .card {
-        width: clamp(120px,  80vw, 280px);
+        width: 280px;
     }
 
-    .image{
-        height: clamp(120px,  50vw, 200px);
-    }
+}
+
+@media(max-width: 1024px){
+
+
+
+
 }
