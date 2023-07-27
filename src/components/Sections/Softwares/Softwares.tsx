@@ -16,8 +16,8 @@ export function Softwares(){
 
                 <div className={s.content}>
                     <div className={s.text}>
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam enim dolorum aperiam? Fuga quaerat reprehenderit assumenda rem nostrum quas explicabo ipsum in qui, accusantium vitae pariatur, dignissimos eveniet magnam?</p>
+                        <h2>Explore the best editing softwares</h2>
+                        <p>The Adobe Creative Cloud provides reknown applications used by professionals worldwide. In our course, you'll master After Effects, Premiere Pro, Photoshop, Illustrator, and more.</p>
                     </div>
                     <div className={s.logos}>
                       <Image className={s.logo} src={AElogo} alt='creative cloud logo' ></Image>
