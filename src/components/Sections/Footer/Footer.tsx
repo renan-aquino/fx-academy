@@ -13,18 +13,10 @@ export function Footer(){
                     <div className={s.logos}>
                         <a className={s.brand_logo}>FX Academy</a>
                         <div className={s.socials}>
-                            {/* <a className={s.social_icon} style={{backgroundImage: "url('/vectors/yoUtube-logo3.svg')"}}></a>
-                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/instagram-logo4.svg')"}}></a>
-                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/twitter-logo2.svg')"}}></a>
-                            <a className={s.social_icon} style={{backgroundImage: "url('/vectors/facebook-logo2.svg')"}}></a> */}
-                            
-                            <Image className={s.social_icon} src={youtube} alt=''/>
-                            <Image className={s.social_icon} src={instagram} alt=''/>
-                            <Image className={s.social_icon} src={twitter} alt=''/>
-                            <Image className={s.social_icon} src={facebook} alt=''/>
-                            
-
-
+                            <Image className={s.social_icon} src={youtube} alt='youtube logo'/>
+                            <Image className={s.social_icon} src={instagram} alt='instagram logo'/>
+                            <Image className={s.social_icon} src={twitter} alt='twitter logo'/>
+                            <Image className={s.social_icon} src={facebook} alt='facebook logo'/>
                         </div>
                     </div>
                     <div className={s.links}>
@@ -46,13 +38,11 @@ export function Footer(){
                     </div>
                 </div>
                            
-                           <div className={s.disclaimer}>
+                <div className={s.disclaimer}>
                     <p>This website was built for portfolio purposes and does not portray a real organization.</p>
                     <p>Attribution</p>
-                           </div>
+                </div>
             </div>
-
-
         </footer>
     )
 }

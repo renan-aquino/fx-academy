@@ -10,19 +10,12 @@ import expressions from '@/../public/images/extend.png'
 export function SkillGrid(){
     return (
         <div className={s.grid}>
-            {/* <SkillCard src='/images/biscuits2.jpg' description='3D Rendering'/>
-            <SkillCard src='/images/rig-girl2.jpg' description='Character Rig'/>
-            <SkillCard src='/images/transition2.jpg' description='Transitions'/>
-            <SkillCard src='/images/color-correction2.jpg' description='Color Correction'/>
-            <SkillCard src='/images/fx-girl2.jpg' description='Video Effects'/>
-            <SkillCard src='/images/extend.png' description='Expressions'/> */}
-
-            <SkillCard src={biscuits} description='3D Rendering'/>
-            <SkillCard src={rigGirl} description='Character Rig'/>
-            <SkillCard src={transition} description='Transitions'/>
-            <SkillCard src={colorCorrection} description='Color Correction'/>
-            <SkillCard src={fxGirl} description='Video Effects'/>
-            <SkillCard src={expressions} description='Expressions'/>
+            <SkillCard src={biscuits} description='3D Rendering' alt='3d rendered biscuits'/>
+            <SkillCard src={rigGirl} description='Character Rig' alt='rig character girl'/>
+            <SkillCard src={transition} description='Transitions' alt='transition icon'/>
+            <SkillCard src={colorCorrection} description='Color Correction' alt='color correction photo'/>
+            <SkillCard src={fxGirl} description='Video Effects' alt='visual effects photo'/>
+            <SkillCard src={expressions} description='Expressions' alt='extend script expression'/>
         </div>
     )
 }

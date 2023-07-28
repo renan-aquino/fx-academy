@@ -1,26 +1,28 @@
 .skills {
-    padding-block: 140px;
+    padding-block: 80px;
 }
 
 .container {
-    width: 920px;
-    margin-inline: auto;
-    text-align: center;
-}
-
-.container h2{
-    margin-bottom: 60px;
-}
-
-@media(max-width: 1024px) {
-    .skills {
-        padding-block: 80px;
-    }
-
-    .container {
         width: 100%;
         padding-inline: 12px;
         text-align: center;
         align-items: center;
     }
+    
+    .container h2{
+        margin-bottom: 60px;
+    }
+
+@media(min-width: 1025px) {
+    .skills {
+        padding-block: 140px;
+    }
+
+    .container {
+        width: 920px;
+        margin-inline: auto;
+        padding: 0;
+    }
+
 }
+

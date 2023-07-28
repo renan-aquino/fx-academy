@@ -1,5 +1,4 @@
 .hero {
-    /* padding-top: 120px; */
     height: 100vh;
 }
 
@@ -66,8 +65,8 @@
 
 @media(max-width: 1024px) {
     .hero {
-        background: url("/images/astronaut1920_V2.jpg"),  rgba(0, 0, 0, 95%);
-        background-blend-mode: overlay;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.8)), url('/images/astronaut1920_V2.jpg');
+        background-blend-mode: multiply;
         background-position: center top;
         background-size: cover;
         min-width: 100%;
@@ -113,7 +112,6 @@
         width: 100%;
         padding: 0;
         align-self: center;
-        /* align-self: flex-end; */
     }
     
     .data_numbers_description {

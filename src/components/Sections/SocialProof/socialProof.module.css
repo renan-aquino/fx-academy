@@ -43,14 +43,16 @@
     gap: 20px;
 }
 
+.person p:first-child{
+    font-weight: 500;
+}
+
 .photo {
-    background-image: url('/images/girl-portrait.jpg');
-    background-position: center;
-    background-size: cover;
     width: 80px;
-    aspect-ratio: 1 / 1;
+    height: auto;
     border-radius: 100px;
 }
+
 
 
 @media(max-width: 1024px){

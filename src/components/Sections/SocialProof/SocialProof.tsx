@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import s from './socialProof.module.css'
+import woman from '@/../public/images/girl-portrait.jpg'
 
 export function SocialProof(){
     return(
@@ -20,9 +21,9 @@ export function SocialProof(){
                         "I got my first job as a video editor thanks to FX Academy. I learned techniques that I use everyday, and I'm always progressing. The instructors are really cool, which keeps me motivated. Nowadays, I work as a motion designer, and I couldn't be happier!"
                     </p>
                     <div className={s.person}>
-                        <div className={s.photo}></div>
+                        <Image  className={s.photo} src={woman} alt='woman portrait'/>
                         <div className={s.credentials}>
-                            <p>Samara Kerrigan</p>
+                            <p>Sarah Rodriguez</p>
                             <p>Motion Designer</p>
                         </div>
                     </div>

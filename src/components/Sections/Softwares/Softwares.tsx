@@ -20,10 +20,10 @@ export function Softwares(){
                         <p>The Adobe Creative Cloud provides reknown applications used by professionals worldwide. In our course, you'll master After Effects, Premiere Pro, Photoshop, Illustrator, and more.</p>
                     </div>
                     <div className={s.logos}>
-                      <Image className={s.logo} src={AElogo} alt='creative cloud logo' ></Image>
-                      <Image className={s.logo} src={PPlogo} alt='creative cloud logo' ></Image>
-                      <Image className={s.logo} src={PSlogo} alt='creative cloud logo' ></Image>
-                      <Image className={s.logo} src={AIlogo} alt='creative cloud logo' ></Image>
+                      <Image className={s.logo} src={AElogo} alt='after effects logo' ></Image>
+                      <Image className={s.logo} src={PPlogo} alt='premiere pro logo' ></Image>
+                      <Image className={s.logo} src={PSlogo} alt='photshop logo' ></Image>
+                      <Image className={s.logo} src={AIlogo} alt='illustrator logo' ></Image>
                     </div>
                 </div>
             </div>

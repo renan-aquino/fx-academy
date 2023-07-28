@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.container h3{
+.container h2{
     margin-bottom: 60px;
 }
 
@@ -18,7 +18,6 @@
     align-items: center;
     justify-items: center;
 }
-
 
 .logo{
     width: 148px;
@@ -31,19 +30,6 @@
     align-self: end;
 }
 
-.company_logos div:last-child {
-    color: red;
-}
-
-.company_logos div:last-of-type {
-    display: none;
-}
-
-
-
-.company_logos:first-child {
-    height: 200px;
-}
 
 @media(min-width: 1024px){
     .companies {

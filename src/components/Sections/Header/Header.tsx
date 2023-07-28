@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from 'react'
 import s from './header.module.css'
-import Image from 'next/image';
 import { Globe } from '../../Icons/Globe/Globe';
 import { BurgerMenu } from '../../Icons/BurgerMenu/BurgerMenu';
 import { Close } from '../../Icons/Close/Close';
@@ -29,7 +28,6 @@ export function Header() {
 
         window.addEventListener('scroll', handleScroll);
 
-        // Clean up the scroll event listener when the component unmounts
         return () => {
         window.removeEventListener('scroll', handleScroll);
        };

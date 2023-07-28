@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import s from './hero.module.css';
 
 export function Hero(){

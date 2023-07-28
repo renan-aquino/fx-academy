@@ -9,12 +9,12 @@ export function Companies(){
     return(
     <section className={s.companies}>    
         <div className={s.container}>
-            <h3>Companies hiring our students</h3>
+            <h2>Companies hiring our students</h2>
             <div className={s.company_logos}>
-                <Image className={s.logo} src={dreamWorks} alt='a'/>
-                <Image className={s.logo} src={weta} alt='a'/>
-                <Image className={s.logo} src={industrial} alt='a'/>
-                <Image className={s.logo} src={pixar} id={s.pixar} alt='a'/>
+                <Image className={s.logo} src={dreamWorks} alt='dream works logo'/>
+                <Image className={s.logo} src={weta} alt='weta fx logo'/>
+                <Image className={s.logo} src={industrial} alt='industrial light and magic logo'/>
+                <Image className={s.logo} src={pixar} id={s.pixar} alt='pixar logo'/>
             </div>
         </div>
     </section>     
