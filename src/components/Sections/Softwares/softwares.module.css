@@ -1,15 +1,20 @@
 .softwares {
     padding-block: 140px;
+    position: relative;
+
 }
 
 .container {
     max-width: min(80vw, 1100px);
-    min-height: 100%;
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-items: center;
+}
+
+.container_animation {
+    animation: fadeInFromBelow .3s forwards;
 }
 
 .creative_cloud {
@@ -35,6 +40,8 @@
 
 .text p {
     margin-bottom: 40px;
+    transition: all 3s;
+
 }
 
 .logos {
@@ -43,10 +50,45 @@
     align-items: center;
 }
 
-
 .logo {
     width: 50px;
     height: auto;
+    transition: all 1s;
+}
+
+.logo_animation {
+    animation: fadeInFromLeft .3s ease-out forwards;
+}
+
+@keyframes fadeInFromLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+      filter: blur(0);
+    }
+}
+
+@keyframes fadeInFromBelow {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+      filter: blur(0);
+    }
+}
+
+
+@media(min-width: 1024px){
+    .container {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(80px);
+    }
+
+    .logo {
+        opacity: 0;
+        transform: translateX(-20px);
+        filter: blur(5px);
+    }
 }
 
 @media(max-width: 1024px) {
