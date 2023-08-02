@@ -17,6 +17,7 @@ export function Skills(){
         }, {threshold: .5});
 
         observer.observe(h2Ref.current);
+        return () =>  observer.disconnect();
 
     }, []);
 

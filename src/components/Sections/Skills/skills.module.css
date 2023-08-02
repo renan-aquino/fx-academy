@@ -26,13 +26,6 @@
 }
 
 
-@media (min-width: 1024px) {
-    .container h2 {
-        filter: blur(5px);
-        transform: translateY(80px);
-        opacity: 0;
-    }
-}
 @media(min-width: 1025px) {
     .skills {
         padding-block: 140px;
@@ -42,6 +35,12 @@
         width: 920px;
         margin-inline: auto;
         padding: 0;
+    }
+
+    .container h2 {
+        filter: blur(5px);
+        transform: translateY(80px);
+        opacity: 0;
     }
 
 }
