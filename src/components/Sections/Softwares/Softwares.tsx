@@ -11,21 +11,23 @@ import { useEffect, useRef } from 'react'
 
 export function Softwares(){
 
-    const refContainer = useRef(null);
+    const ccLogoRef = useRef();
+    const textRef = useRef();
     const  delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
     useEffect(() => {
         const handleScrollAnimation = (entries: IntersectionObserverEntry[]) => {
             entries.forEach((entry) => {
                 if(entry.isIntersecting){
-                    entry.target.classList.add(s.container_animation);          
+                    entry.target.classList.add(s.fade_animation);          
                 }
             },{threshold: .5})          
 
         };
     
         const observer = new IntersectionObserver(handleScrollAnimation);
-        observer.observe(refContainer.current);
+        observer.observe(ccLogoRef.current);
+        observer.observe(textRef.current);
         return () =>  observer.disconnect();      
 
     }, []);
@@ -44,7 +46,7 @@ export function Softwares(){
             })
         };
 
-        const observer = new IntersectionObserver(handleScrollAnimation);
+        const observer = new IntersectionObserver(handleScrollAnimation, {threshold: 1});
         elements.forEach((el) => observer.observe(el));
         return () =>  observer.disconnect();
         
@@ -53,13 +55,13 @@ export function Softwares(){
 
     return(
         <section className={s.softwares}>
-        <div className={s.container} ref={refContainer}>
+        <div className={s.container}>
                 <div className={s.creative_cloud}>
-                    <Image className={s.cc_logo} src={creativeCloud} alt='creative cloud logo' ></Image>
+                    <Image className={s.cc_logo} ref={ccLogoRef} src={creativeCloud} alt='creative cloud logo' ></Image>
                 </div>
 
                 <div className={s.content}>
-                    <div className={s.text}>
+                    <div className={s.text} ref={textRef}>
                         <h2>Explore the best editing softwares</h2>
                         <p>The Adobe Creative Cloud provides reknown applications used by professionals worldwide. In our course, you'll master After Effects, Premiere Pro, Photoshop, Illustrator, and more.</p>
                     </div>
