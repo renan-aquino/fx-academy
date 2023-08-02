@@ -14,19 +14,20 @@ export function Header() {
 
 
     useEffect(() => {
-       
         const handleScroll = () => {
             if(window.scrollY != 0) {
-                refHeader.current.classList.add(s.header_sticky);
+                refHeader.current.classList.add(s.header_background);
             }
             else {
-                refHeader.current.classList.remove(s.header_sticky);
+                refHeader.current.classList.remove(s.header_background);
                 
             }
          
         }
 
         window.addEventListener('scroll', handleScroll);
+        
+        handleScroll();
 
         return () => {
         window.removeEventListener('scroll', handleScroll);

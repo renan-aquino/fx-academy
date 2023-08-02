@@ -1,10 +1,10 @@
 .header_box {
     height: var(--header-height);
     position: fixed;
-    /* background: transparent; */
     min-width: 100%;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .container {
@@ -15,7 +15,7 @@
     margin-inline: auto;
 }
 
-.header_sticky{
+.header_background{
     background-color: rgb(20, 20, 20);
 }
 
