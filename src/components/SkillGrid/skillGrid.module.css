@@ -4,6 +4,26 @@
     gap: 40px;
 }
 
+.card_animation {
+    animation: fadeInFromBelow .3s forwards;
+}
+
+@keyframes fadeInFromBelow {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+      filter: blur(0);
+    }
+}
+
+@media(min-width: 1024px){
+    .card {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(80px);
+    }
+
+}
 
 @media(max-width: 1024px){
     .grid{
