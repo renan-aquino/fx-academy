@@ -38,6 +38,7 @@
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 10px;
     justify-items: center;
+    white-space: nowrap; 
 }
 
 .links ul h4 {
