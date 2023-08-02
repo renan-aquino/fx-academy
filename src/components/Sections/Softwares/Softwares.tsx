@@ -20,7 +20,7 @@ export function Softwares(){
                 if(entry.isIntersecting){
                     entry.target.classList.add(s.container_animation);          
                 }
-            })          
+            },{threshold: .5})          
 
         };
     
