@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import s from './cta.module.css'
-import timeline from '@/../public/images/timeline.jpg'
-
+import timeline from '@/../public/images/timeline.webp'
 
 export function Cta(){
     return(
