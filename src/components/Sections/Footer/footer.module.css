@@ -56,6 +56,11 @@
     text-align: center;
 }
 
+.disclaimer a {
+    color: var(--clr-accent);
+    text-decoration: underline;
+}
+
 
 
 @media(min-width: 1024px){
