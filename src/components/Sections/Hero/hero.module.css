@@ -56,7 +56,7 @@
 
 @media(min-width: 1025px){
     .hero {
-        background-image: url("/images/astronaut1920_V2.jpg");
+        background-image: url("/images/astronaut.webp");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;

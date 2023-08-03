@@ -2,12 +2,12 @@
 
 import s from './skillGrid.module.css'
 import { SkillCard } from "../SkillCard/SkillCard";
-import biscuits from '@/../public/images/biscuits2.jpg'
-import rigGirl from '@/../public/images/rig-girl2.jpg'
-import transition from '@/../public/images/transition2.jpg'
-import colorCorrection from '@/../public/images/color-correction2.jpg'
-import fxGirl from '@/../public/images/fx-girl2.jpg'
-import expressions from '@/../public/images/extend.png'
+import biscuits from '@/../public/images/biscuits.webp'
+import rigGirl from '@/../public/images/rig-girl.webp'
+import transition from '@/../public/images/transition.webp'
+import colorCorrection from '@/../public/images/color-correction.webp'
+import fxGirl from '@/../public/images/fx-girl.webp'
+import expressions from '@/../public/images/extend-script.webp'
 import { useEffect } from 'react';
 
 export function SkillGrid(){

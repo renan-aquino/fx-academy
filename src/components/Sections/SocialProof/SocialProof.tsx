@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import s from './socialProof.module.css'
-import woman from '@/../public/images/girl-portrait.jpg'
+import woman from '@/../public/images/girl-portrait.webp'
 import { useEffect, useRef } from 'react'
 
 export function SocialProof(){
