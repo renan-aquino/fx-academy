@@ -50,7 +50,7 @@ export function Header() {
     return (
         <header className={s.header_box} ref={refHeader}>
             <nav className={s.container}>
-                <a href="#" className={s.logo}>FX Acamdemy</a>
+                <a href="#" className={s.logo}>FX Academy</a>
                 <ul className={s.nav_list} ref={refNav}>
                     {!isClosed && <hr className={s.hr_line}/>}
                     <li className={s.nav_list_item}><a href="#">Pricing</a></li>
