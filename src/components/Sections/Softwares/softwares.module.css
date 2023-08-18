@@ -63,7 +63,7 @@
     to {
       opacity: 1;
       transform: translateX(0);
-      filter: blur(0);
+      /* filter: blur(0); */
     }
 }
 
@@ -71,20 +71,20 @@
 @media(min-width: 1024px){
     .cc_logo {
         opacity: 0;
-        filter: blur(5px);
+        /* filter: blur(5px); */
         transform: translateX(-80px);
     }
 
     .text {
         opacity: 0;
-        filter: blur(5px);
+        /* filter: blur(5px); */
         transform: translateX(80px); 
     }
 
     .logo {
         opacity: 0;
         transform: translateX(-20px);
-        filter: blur(5px);
+        /* filter: blur(5px); */
     }
 }
 
