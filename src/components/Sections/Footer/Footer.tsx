@@ -22,11 +22,11 @@ export function Footer(){
                     <div className={s.links}>
                         <ul>
                             <h4>About</h4>
-                            <li><a>The insitution</a></li>
+                            <li><a>The institution</a></li>
                             <li><a>Our members</a></li>
                         </ul>
                         <ul>
-                            <h4>Suporte</h4>
+                            <h4>Support</h4>
                             <li><a>Help desk</a></li>
                             <li><a>Resources</a></li>
                         </ul>

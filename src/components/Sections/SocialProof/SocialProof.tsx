@@ -48,7 +48,7 @@ export function SocialProof(){
         <section className={s.social_proof}>
             <div className={s.container}>
                 <div className={s.topics}>
-                    <h2 ref={h2Ref}>The perfect enviroment for you</h2>
+                    <h2 ref={h2Ref}>The perfect environment for you</h2>
                     <ul className={s.bullet_points}>
                         <li id='listItem' style={{animationDelay: '.1s'}}>From beginner to advanced levels</li>
                         <li id='listItem' style={{animationDelay: '.2s'}}>Direct support from instructors</li>

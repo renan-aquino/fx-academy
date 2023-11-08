@@ -20,7 +20,7 @@ export function Hero(){
                             <div className={s.data_numbers_pipe}>|</div>
                             <div className={s.data_numbers}>
                                 <h4>92%</h4>
-                                <p className={s.data_numbers_description}>employement rate</p>
+                                <p className={s.data_numbers_description}>employment rate</p>
                             </div>
                             <div className={s.data_numbers_pipe}>|</div>
                             <div className={s.data_numbers}>
