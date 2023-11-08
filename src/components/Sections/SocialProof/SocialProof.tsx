@@ -50,10 +50,10 @@ export function SocialProof(){
                 <div className={s.topics}>
                     <h2 ref={h2Ref}>The perfect environment for you</h2>
                     <ul className={s.bullet_points}>
-                        <li id='listItem' style={{animationDelay: '.1s'}}>From beginner to advanced levels</li>
-                        <li id='listItem' style={{animationDelay: '.2s'}}>Direct support from instructors</li>
-                        <li id='listItem' style={{animationDelay: '.3s'}}>Real life job experiences</li> 
-                        <li id='listItem' style={{animationDelay: '.4s'}}>Lifetime access to exclusive assets</li>
+                        <li id='listItem' style={{animationDelay: '.1s'}} className={s.list_item}>From beginner to advanced levels</li>
+                        <li id='listItem' style={{animationDelay: '.2s'}} className={s.list_item}>Direct support from instructors</li>
+                        <li id='listItem' style={{animationDelay: '.3s'}} className={s.list_item}>Real life job experiences</li> 
+                        <li id='listItem' style={{animationDelay: '.4s'}} className={s.list_item}>Lifetime access to exclusive assets</li>
                         <li id='listItem' style={{animationDelay: '.5s'}}>Presential or remote access to powerful computers</li>
                     </ul>
                 </div>

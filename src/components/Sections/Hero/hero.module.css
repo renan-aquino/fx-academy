@@ -54,7 +54,7 @@
 }
 
 
-@media(min-width: 1025px){
+@media(min-width: 769px){
     .hero {
         background-image: url("/images/astronaut.webp");
         background-size: cover;
@@ -63,7 +63,7 @@
     }
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 768px) {
     .hero {
         background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.1)), url('/images/astronaut.webp');
         background-position: center top;

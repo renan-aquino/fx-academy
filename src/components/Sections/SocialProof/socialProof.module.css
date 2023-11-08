@@ -21,6 +21,9 @@
     background-position: left center;
     background-repeat: no-repeat;
     padding: 3px 0px 3px 30px;
+}
+
+.list_item{
     margin-bottom: 20px;
 }
 
@@ -30,7 +33,6 @@
     padding: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 500px;
-    align-self: end;
 }
 
 .testimony {
@@ -87,13 +89,24 @@
     }
 
    .container {
-    display: block;
+    flex-direction: column;
     width: 100%;
     padding-inline: 12px;
    } 
 
    .topics {
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .topics h2 {
+    text-align: center;
+   }
+
+   .list_item {
+    max-width: 280px;
    }
 
    .box {
@@ -101,4 +114,35 @@
     padding: 20px;
    }
 
+}
+
+@media(max-width: 1024px) and (min-width: 710px){
+    .bullet_points {
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 60px;
+        justify-items: start;
+    }
+
+    .list_item {
+        margin-left: 30px;
+    }
+
+    .bullet_points li:last-child {
+        grid-column: span 2;
+        justify-self:center;
+        
+    }
+
+    .box {
+        width: 600px;
+    }
+    
+}
+
+@media (max-width: 709px){
+    .bullet_points li {
+        max-width: 280px;
+    }
 }

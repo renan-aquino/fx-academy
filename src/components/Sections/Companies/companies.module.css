@@ -13,7 +13,9 @@
 
 .company_logos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    
     gap: 40px;
     align-items: center;
     justify-items: center;
@@ -36,6 +38,13 @@
     }
 }
 
+@media(max-width: 768px) {
+    .company_logos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+     
+}
+
 @media(min-width: 1024px){
     .companies {
         padding-block: 140px;
@@ -56,6 +65,5 @@
     .company_logos {
         gap: 10px;
     }
-
 
 }
