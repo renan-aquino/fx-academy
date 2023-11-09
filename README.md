@@ -2,7 +2,7 @@
 
 This is a static home page created with Next.js, with the purpose to showcase design and scroll animations for a fictional video editing school called FX Academy.
 
-Check out the live demo:
+Check out the live demo:  
 https://fx-academy.vercel.app/
 
 ## Installation
@@ -21,6 +21,6 @@ npm run dev
 
 ## Tools used for this project
 
-Next.js - The React framework for building web applications;
-React - A JavaScript library for building user interfaces;
+Next.js - The React framework for building web applications;  
+React - A JavaScript library for building user interfaces;  
 CSS Modules - A CSS file in which all class names and animation names are scoped locally by default.
