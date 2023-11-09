@@ -39,7 +39,7 @@ export function Footer(){
                 </div>
                            
                 <div className={s.disclaimer}>
-                    <p>This website was built for portfolio purposes and does not portray a real organization. Check the <a href="https://github.com/renan-aquino/fx-academy " target="_blank">GitHub repository</a></p>
+                    <p>This website was built for portfolio purposes and does not portray a real organization. Check the GitHub repository <a href="https://github.com/renan-aquino/fx-academy " target="_blank">here.</a></p>
                     <p>The photos used throughout the page were provided by <a href="https://www.freepik.com/" target="_blank">Freepik</a> and <a href="https://unsplash.com/" target="_blank">Unsplashed</a>.</p>
                 </div>
             </div>
