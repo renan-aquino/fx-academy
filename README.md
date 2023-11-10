@@ -5,11 +5,15 @@ This is a static home page created with Next.js, with the purpose to showcase de
 Check out the live demo:  
 https://fx-academy.vercel.app/
 
-## Tools used for this project
+## Technologies Used
 
 **Next.js** - The React framework for building web applications.  
 **React** - A JavaScript library for building user interfaces.  
 **CSS Modules** - A CSS file in which all class names and animation names are scoped locally by default.
+
+## Prerequisites
+
+[Node.js.](https://nodejs.org/en/)
 
 ## Installation
 
