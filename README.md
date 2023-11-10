@@ -1,4 +1,6 @@
-## FX Academy
+# FX Academy
+
+## Overview
 
 This is a static home page created with Next.js, with the purpose to showcase design and scroll animations for a fictional video editing school called FX Academy.
 
