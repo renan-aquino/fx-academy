@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 export function NumberAnimation({ originalNumber, sign }) {
   const [animatedNumber, setAnimatedNumber] = useState(0);
   const [isAnimationEnabled, setAnimationEnabled] = useState(
-    window.innerWidth > 1024
+    typeof window !== 'undefined' && window.innerWidth > 1024
   );
 
   useEffect(() => {
