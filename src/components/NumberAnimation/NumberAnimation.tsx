@@ -10,21 +10,26 @@ export function NumberAnimation({ originalNumber, sign }) {
 
   useEffect(() => {
     if (!isAnimationEnabled) {
-        setAnimatedNumber(originalNumber); 
-        return;
+      setAnimatedNumber(originalNumber);
+      return
+    } else {
+      const startAnimation = () => {
+        const difference = originalNumber - animatedNumber;
+        const step = Math.ceil(difference / 25); 
+
+        const intervalId = setInterval(() => {
+          setAnimatedNumber((prevNumber) =>
+            prevNumber + step < originalNumber ? prevNumber + step : originalNumber
+          );
+        }, 20); 
+
+        return () => clearInterval(intervalId);
       }
-
-    const difference = originalNumber - animatedNumber;
-    const step = Math.ceil(difference / 25); 
-
-    const intervalId = setInterval(() => {
-      setAnimatedNumber((prevNumber) =>
-        prevNumber + step < originalNumber ? prevNumber + step : originalNumber
-      );
-    }, 20); 
-
-    return () => clearInterval(intervalId);
-  }, [originalNumber]);
+    
+      const delayTimeout = setTimeout(startAnimation, 500);
+      return () => clearTimeout(delayTimeout);
+    }
+    }, [originalNumber, isAnimationEnabled]);
 
   const formattedNumber = animatedNumber.toLocaleString('en-US');
 

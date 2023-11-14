@@ -53,6 +53,25 @@
     margin-top: 10px;
 }
 
+.fade_animation {
+    animation: fadeInFromY .6s forwards;
+}
+
+@keyframes fadeInFromY {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* filter: blur(0); */
+    }
+}
+
+@media(min-width: 1024px) {
+    #headline{
+        opacity: 0;
+        transform: translateY(60px);
+        /* filter: blur(5px); */
+    }
+}
 
 @media(min-width: 769px){
     .hero {
